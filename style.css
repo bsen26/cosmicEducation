@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+body, html {
+  height: 100%;
+  overflow: hidden; /* Disable scrollbars */
+}
+
 .pdf-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
