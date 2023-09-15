@@ -4,26 +4,12 @@
   box-sizing: border-box;
 }
 
-body, html {
-  height: 100%;
-}
-
 body {
   overflow: hidden; /* Disable scrollbars */
 }
 
-.pdf-container {
-  position: absolute;
-  top: 0;
-  left: 0;
+iframe {
   width: 100%;
-  height: 100%;
-}
-
-/* Adjust the size of the PDF for smaller screens */
-@media (max-width: 768px) {
-  .pdf-container {
-      width: 100%;
-      height: 100%;
-  }
+  height: 100vh;
+  border: none; /* Remove border around the PDF */
 }
